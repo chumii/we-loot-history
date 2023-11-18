@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/we-loot-history/static/css/main.82ff4bcc.css",
+    "main.css": "/we-loot-history/static/css/main.3fcef1c2.css",
     "main.js": "/we-loot-history/static/js/main.dad9d626.js",
     "static/js/787.7ed1f1cf.chunk.js": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js",
     "static/media/roboto-v20-latin-ext_latin-700.woff": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-700.8aba6dc5d991e4367d7a.woff",
@@ -10,12 +10,12 @@
     "static/media/roboto-v20-latin-ext_latin-700.woff2": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-700.1d1ef7788f0ff084b881.woff2",
     "static/media/roboto-v20-latin-ext_latin-regular.woff2": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-regular.5cb5c8f08bb4e6cb64c3.woff2",
     "index.html": "/we-loot-history/index.html",
-    "main.82ff4bcc.css.map": "/we-loot-history/static/css/main.82ff4bcc.css.map",
+    "main.3fcef1c2.css.map": "/we-loot-history/static/css/main.3fcef1c2.css.map",
     "main.dad9d626.js.map": "/we-loot-history/static/js/main.dad9d626.js.map",
     "787.7ed1f1cf.chunk.js.map": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ff4bcc.css",
+    "static/css/main.3fcef1c2.css",
     "static/js/main.dad9d626.js"
   ]
 }
