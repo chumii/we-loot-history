@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/we-loot-history/static/css/main.c530a334.css",
+    "main.js": "/we-loot-history/static/js/main.bebaaf2a.js",
+    "static/js/787.7ed1f1cf.chunk.js": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/we-loot-history/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/we-loot-history/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "index.html": "/we-loot-history/index.html",
+    "main.c530a334.css.map": "/we-loot-history/static/css/main.c530a334.css.map",
+    "main.bebaaf2a.js.map": "/we-loot-history/static/js/main.bebaaf2a.js.map",
+    "787.7ed1f1cf.chunk.js.map": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c530a334.css",
+    "static/js/main.bebaaf2a.js"
+  ]
+}
