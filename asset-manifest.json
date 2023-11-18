@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/we-loot-history/static/css/main.c530a334.css",
-    "main.js": "/we-loot-history/static/js/main.bebaaf2a.js",
+    "main.css": "/we-loot-history/static/css/main.82ff4bcc.css",
+    "main.js": "/we-loot-history/static/js/main.9307db22.js",
     "static/js/787.7ed1f1cf.chunk.js": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js",
-    "static/media/Inter-italic.var.woff2?v=3.19": "/we-loot-history/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
-    "static/media/Inter-roman.var.woff2?v=3.19": "/we-loot-history/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/roboto-v20-latin-ext_latin-700.woff": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-700.8aba6dc5d991e4367d7a.woff",
+    "static/media/roboto-v20-latin-ext_latin-500.woff": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-500.e492ac63197a57e7f4d3.woff",
+    "static/media/roboto-v20-latin-ext_latin-regular.woff": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-regular.ae804dc012b1b5255474.woff",
+    "static/media/roboto-v20-latin-ext_latin-500.woff2": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-500.0b45721325446d537b54.woff2",
+    "static/media/roboto-v20-latin-ext_latin-700.woff2": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-700.1d1ef7788f0ff084b881.woff2",
+    "static/media/roboto-v20-latin-ext_latin-regular.woff2": "/we-loot-history/static/media/roboto-v20-latin-ext_latin-regular.5cb5c8f08bb4e6cb64c3.woff2",
     "index.html": "/we-loot-history/index.html",
-    "main.c530a334.css.map": "/we-loot-history/static/css/main.c530a334.css.map",
-    "main.bebaaf2a.js.map": "/we-loot-history/static/js/main.bebaaf2a.js.map",
+    "main.82ff4bcc.css.map": "/we-loot-history/static/css/main.82ff4bcc.css.map",
+    "main.9307db22.js.map": "/we-loot-history/static/js/main.9307db22.js.map",
     "787.7ed1f1cf.chunk.js.map": "/we-loot-history/static/js/787.7ed1f1cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c530a334.css",
-    "static/js/main.bebaaf2a.js"
+    "static/css/main.82ff4bcc.css",
+    "static/js/main.9307db22.js"
   ]
 }
