@@ -1,0 +1,254 @@
+/* body {
+  display: inline-block;
+} */
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  width: 91%;
+}
+
+.Wrapper {
+  display: grid;
+  /* grid-template-columns: 400px minmax(10px, 1fr); */
+  grid-template-rows: auto 1fr;
+  grid-gap: 1rem;
+  align-items: start;
+  /* border: 1px solid yellow; */
+}
+
+.sidebar {
+  height: 100%;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  left: -500px;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 99;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.overlay-active #overlay {
+  display: block;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-button {
+  height: 40px;
+  width: 40px;
+}
+
+.asideHeader,
+.asideRow {
+  text-align: center;
+}
+
+.asideHeader,
+.asideRow,
+.asideHeaderPlayer,
+.asideRowPlayer {
+  padding: 0.2em 1em;
+  border: 1px solid #404040;
+}
+
+.table-top {
+  display: flex;
+  width: 99%;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.history-table input {
+  margin-block: 1em;
+}
+
+.history-table div.p-datatable {
+  margin-right: 1em;
+}
+
+a.itemLink:visited,
+a.itemLink:active,
+a.itemLink {
+  text-decoration: none;
+  color: #a335ee;
+}
+
+.title {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.title h1 {
+  font-family: 'Comic Sans MS';
+  font-size: 3em;
+  /* border: 1px solid blue; */
+}
+
+.title a,
+.title a:visited,
+.title a:hover,
+.title a:active {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #fff;
+}
+
+.content {
+  display: block;
+}
+
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #fff !important;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel-grid {
+  display: grid;
+  grid-template-areas:
+    "bossname"
+    "top"
+    "bottom";
+  grid-template-rows: auto 100px 1fr;
+  /* border: 1px solid red; */
+  padding-top: 2em;
+}
+
+.carousel-bossname {
+  font-family: 'Comic Sans MS';
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 90%;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.boss-vs {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.carousel-top {
+  /* border: 1px solid green; */
+  grid-area: top;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 0px;
+}
+
+.carousel-top span {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-basis: 10%;
+  box-sizing: border-box;
+  align-items: center;
+  /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
+  text-align: center;
+  /* Center text horizontally */
+}
+
+.carousel-bottom {
+  /* border: 1px solid blue; */
+  grid-area: bottom;
+}
+
+.dk {
+  color: #C41E3A;
+}
+
+.dh {
+  color: #A330C9;
+}
+
+.druid {
+  color: #FF7C0A;
+}
+
+.evoker {
+  color: #33937F;
+}
+
+.hunter {
+  color: #AAD372;
+}
+
+.mage {
+  color: #3FC7EB;
+}
+
+.monk {
+  color: #00FF98;
+}
+
+.pala {
+  color: #F48CBA;
+}
+
+.priest {
+  color: #FFFFFF;
+}
+
+.rogue {
+  color: #FFF468;
+}
+
+.shaman {
+  color: #0070DD;
+}
+
+.warlock {
+  color: #8788EE;
+}
+
+.warrior {
+  color: #C69B6D;
+}
